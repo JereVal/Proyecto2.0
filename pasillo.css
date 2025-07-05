@@ -8,14 +8,14 @@ background-color: #111;
   padding: 0;
 }
 .hero {
-  height: 100vh;                  /* Ocupa toda la altura de la pantalla */
-  width: 100vw;                   /* Ocupa todo el ancho de la pantalla */
-  background-image: url('fondo2.png');  /* Imagen de fondo */
-  background-position: center center;  /* Centra la imagen */
+  height: 100vh;                  
+  width: 100vw;                   
+  background-image: url('fondo2.png');  
+  background-position: center center;  
   background-repeat: no-repeat;
-  background-size: contain;      /* Muestra toda la imagen sin recortes */
-  background-color: black;       /* Fondo de seguridad si hay bordes */
-  display: flex;                 /* Centra contenido interior */
+  background-size: contain;      
+  background-color: black;       
+  display: flex;                
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -219,12 +219,6 @@ footer {
 }.icon-elem:nth-child(3) .icon:hover { 
   color: #1DA1F2;
 }
-.icon-elem:nth-child(4) .icon:hover { 
-  color: #FF8C00;
-}
-.icon-elem:nth-child(5) .icon:hover { /* WhatsApp */
+.icon-elem:nth-child(4) .icon:hover {
   color: #25D366;
-}
-.icon-elem:nth-child(6) .icon:hover { 
-  color: #1877F2;
 }
